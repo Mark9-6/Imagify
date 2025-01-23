@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 4000;
 
 const app = express();
 app.use(express.json());
-const allowedOrigins = ['https://imagify-f-rho.vercel.app'];
+const allowedOrigins = ['https://imagify-f-r01d.onrender.com'];
 
 const corsOptions = {
   origin: function (origin, callback) {
